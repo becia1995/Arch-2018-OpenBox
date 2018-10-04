@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="New Menu">
+		<item label="Google Chrome">
+			<action name="Execute">
+				<execute>google-chrome-stable</execute>
+			</action>
+		</item>
+		<item label="Termite">
+			<action name="Execute">
+				<execute>termite</execute>
+			</action>
+		</item>
+		<item label="PC-ManFM">
+			<action name="Execute">
+				<execute>pcmanfm</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="ncmpcpp">
+			<action name="Execute">
+				<execute>termite --exec ncmpcpp</execute>
+			</action>
+		</item>
+		<item label="bum">
+			<action name="Execute">
+				<execute>bum</execute>
+			</action>
+		</item>
+		<item label="Spotify">
+			<action name="Execute">
+				<execute>spotify</execute>
+			</action>
+		</item>
+		<item label="SMPlayer">
+			<action name="Execute">
+				<execute>smplayer</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="None-302441-432453" label="Akcesoria">
+			<item label="Sublime Text">
+				<action name="Execute">
+					<execute>sublime_text</execute>
+				</action>
+			</item>
+			<item label="Atom">
+				<action name="Execute">
+					<execute>atom</execute>
+				</action>
+			</item>
+			<item label="Electron">
+				<action name="Execute">
+					<execute>electron</execute>
+				</action>
+			</item>
+			<item label="Furius ISO Mount">
+				<action name="Execute">
+					<execute>furiusisomount</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="None-302441-832447" label="Gry">
+			<item label="Steam">
+				<action name="Execute">
+					<execute>steam-runtime</execute>
+				</action>
+			</item>
+			<item label="Lutris">
+				<action name="Execute">
+					<execute>lutris</execute>
+				</action>
+			</item>
+			<item label="PlayOnLinux">
+				<action name="Execute">
+					<execute>playonlinux</execute>
+				</action>
+			</item>
+			<item label="Styx: Master of Shadows">
+				<action name="Execute">
+					<execute>steam steam://rungameid/242640</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="None-302441-642452" label="Internet">
+			<item label="Firefox">
+				<action name="Execute">
+					<execute>firefox</execute>
+				</action>
+			</item>
+			<item label="Vivaldi">
+				<action name="Execute">
+					<execute>vivaldi-stable</execute>
+				</action>
+			</item>
+			<item label="Tixati">
+				<action name="Execute">
+					<execute>tixati</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="None-302441-702452" label="Komunikatory">
+			<item label="Messenger">
+				<action name="Execute">
+					<execute>messengerfordesktop</execute>
+				</action>
+			</item>
+			<item label="Telegram">
+				<action name="Execute">
+					<execute>telegram-desktop</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="None-302441-342452" label="WPS Office">
+			<item label="WPS Writer">
+				<action name="Execute">
+					<execute>wps</execute>
+				</action>
+			</item>
+			<item label="WPS Spreadsheets">
+				<action name="Execute">
+					<execute>et</execute>
+				</action>
+			</item>
+			<item label="WPS Presentations ">
+				<action name="Execute">
+					<execute>wpp</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Ustawienia wyglądu">
+			<action name="Execute">
+				<execute>lxappearance</execute>
+			</action>
+		</item>
+		<item label="Ustawienia Openbox">
+			<action name="Execute">
+				<execute>obconf</execute>
+			</action>
+		</item>
+		<item label="Skróty klawiszowe">
+			<action name="Execute">
+				<execute>obkey</execute>
+			</action>
+		</item>
+		<item label="Edytuj menu">
+			<action name="Execute">
+				<execute>obmenu</execute>
+			</action>
+		</item>
+		<item label="Tint2 Ustawienia">
+			<action name="Execute">
+				<execute>tint2conf</execute>
+			</action>
+		</item>
+		<item label="Zmień tapetę">
+			<action name="Execute">
+				<execute>nitrogen</execute>
+			</action>
+		</item>
+		<item label="Zrekonfiguruj Openbox">
+			<action name="Reconfigure"/>
+		</item>
+		<item label="Polski język klawiatury">
+			<action name="Execute">
+				<execute>setxkbmap pl</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="htop">
+			<action name="Execute">
+				<execute>termite -e htop</execute>
+			</action>
+		</item>
+		<item label="Neofetch">
+			<action name="Execute">
+				<execute>termite -e neofetch  --hold</execute>
+			</action>
+		</item>
+		<item label="Zrzut ekranu">
+			<action name="Execute">
+				<execute>scrot -d 1 -c -e 'mv $f /home/becia/Obrazy/screenshots/'</execute>
+			</action>
+		</item>
+		<item label="Zrzut ekranu - zaznacz">
+			<action name="Execute">
+				<execute>scrot -s -e 'mv $f /home/becia/Obrazy/screenshots/'</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="Wyloguj">
+			<action name="Execute">
+				<execute>openbox --exit</execute>
+			</action>
+		</item>
+		<item label="Uśpij">
+			<action name="Execute">
+				<execute>systemctl suspend</execute>
+			</action>
+		</item>
+		<item label="Wyłącz">
+			<action name="Execute">
+				<execute>poweroff</execute>
+			</action>
+		</item>
+		<item label="Zrestartuj">
+			<action name="Execute">
+				<execute>reboot</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
